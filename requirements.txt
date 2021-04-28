@@ -1,0 +1,4 @@
+Sphinx>=3.0
+myst-parser
+furo
+sphinx_copybutton
