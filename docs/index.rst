@@ -2,22 +2,17 @@
 Python Documentation Community 
 ==============================
 
-This page contains links to the notes from team meetings
-with the Documentatation community.
-
-Community Resources
-===================
-
-The following pages contain information about the documentation workgroup and
+The following pages contain information about the documentation workgroup,
+the documentation community team and
 community team, resources for community members, and workgroup practices for
 governance and planning.
 
 .. toctree::
    :maxdepth: 2
 
-   index-team_info
-   index-team_guides
-   index-team_governance
+   index-team_workgroup
+   index-team_community
+   monthly-meeting/monthly_report_index
 
 Why have this repo?
 ===================
@@ -37,3 +32,5 @@ needed. The repo contains:
 
 Code of Conduct
 ===============
+
+We adopt the PSF Code of Conduct (https://www.python.org/psf/codeofconduct/).

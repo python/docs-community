@@ -1,7 +1,5 @@
 # Skills and ways to contribute
 
-
-
 ## Where to start?
 
 The short answer to this question is: follow your interests :-) 
@@ -17,7 +15,7 @@ The short answer to this question is: follow your interests :-)
 
 Depth/expertise required for certain kinds of tasks can be hard to nail down and not at
 all obvious. If you'd like to make a contribution and you're not sure where to start,
-a good rule of thumb is to open an issue or reach out to another team member to help
+a good rule of thumb is to reach out to another team member to help
 you scope the work you'd like to do, and to set expectations.
 
 ## Links

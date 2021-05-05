@@ -9,7 +9,14 @@ Documentation Team
 Workgroup Members
 -----------------
 
+- Carol Willing
+- Ned Batchelder
+- Mariatta Wijaya
+- Julien Palard (Lead, Infrastructure/Localization)
+
 .. _community-team:
 
 Community Team
 ---------------
+
+TBD

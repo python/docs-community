@@ -3,11 +3,9 @@
 Monthly Reports Archive
 =======================
 
-`Current Agenda <>`_
+Current agenda: TBD
 
-Reports in reverse chronological order.
-
-To generate the agenda for a new meeting, see the `Monthly Meeting Agenda Template <https://raw.githubusercontent.com/jupyterhub/team-compass/master/docs/monthly-meeting/monthly-meeting-template.md>`_.
+Monthly reports in reverse chronological order.
 
 .. toctree::
    :maxdepth: 1

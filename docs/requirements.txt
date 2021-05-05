@@ -1,6 +1,4 @@
 sphinx>=3
 sphinx-copybutton
 furo
-pandas
-ruamel.yaml
 myst_parser
