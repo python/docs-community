@@ -15,7 +15,7 @@ The Documentation Community Team has a Code of Conduct
 
 .. toctree::
 
-    community/contributing
-    community/community-guide
-    community/skills
-    community/team
+    contributing
+    community-guide
+    skills
+    team

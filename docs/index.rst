@@ -10,9 +10,10 @@ governance and planning.
 .. toctree::
    :maxdepth: 2
 
-   index-team_workgroup
-   index-team_community
-   monthly-meeting/monthly_report_index
+   workgroup/index
+   community/index
+   monthly-meeting/index
+   GitHub repository <https://github.com/python/docs-community>
 
 Why have this repo?
 ===================
