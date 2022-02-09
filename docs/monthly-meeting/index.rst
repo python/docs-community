@@ -11,4 +11,4 @@ Monthly reports in reverse chronological order.
    :maxdepth: 1
    :caption: Monthly reports
 
-   May 2021 (TBD) <2021-05.md>
+   Feb 2022 <2022-02.md>
