@@ -28,7 +28,3 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML pages.
 html_theme = 'furo'
-
-# relative paths to custom static files
-html_static_path = ['_static']
-
