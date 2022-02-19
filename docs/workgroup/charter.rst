@@ -27,36 +27,36 @@ Active Time
 -----------
 
 This workgroup will be active indefinitely while supported by the Python
-Steering Council. 
+Steering Council.
 
 Core Values & Internal Government
 ---------------------------------
 
 The core values for this group are:
 
-- Respect 
-- Support 
-- Positive Atmosphere 
-- Constructiveness 
-- Integrity 
+- Respect
+- Support
+- Positive Atmosphere
+- Constructiveness
+- Integrity
 
 The workgroup adopts the PSF Code of Conduct (https://www.python.org/psf/codeofconduct/).
 Any actions (found by a majority) made against the principles in the Code of
-Conduct will result in the acting person being removed from the workgroup. 
+Conduct will result in the acting person being removed from the workgroup.
 
 Rules & Guidelines
 ------------------
 
 - At any time the Python Steering Council may, at its discretion, add any number
   of non-voting observers to the working group to observe and participate in
-  discussion. 
+  discussion.
 - The group's purview includes the Sphinx documentation included in the Python
   source repository, including the doc theme, as well as separate projects such
   as the developer guide. Translations and infrastructure will be managed by
   Julien Palard or a Steering Council appointed member.
 - The group will also maintain documentation of meetings and best practices.
 - The editorial board will include people outside of the core developers who are
-  tech writers or educators.  
+  tech writers or educators.
 
 Decision Making Procedures
 --------------------------
@@ -66,13 +66,13 @@ propose or request a topic for a decision.
 
 - In general, a topic for decision should address one of the workgroup's goals:
 - Improve or maintain the state of Python's documentation effort by some
-  noticeable or measurable amount. 
+  noticeable or measurable amount.
 - Increase the participation of contributors to documentation
 
 When adding new members to the working group, prospective members must send an
 email to introduce themselves along with a description of why they want to be
 a member and what they bring to the process. Approval of new members will be
-decided using the voting procedures detailed below. 
+decided using the voting procedures detailed below.
 
 Voting
 ------
@@ -80,7 +80,7 @@ Voting
 A vote for any proposal will last for 5 days, or when all voting members have
 voted, whichever comes first. For a proposal to be successful it must have at
 least two +1's, more +1's than -0's, and no -1. Voting may be done in any venue
-given agreement of all voting members. 
+given agreement of all voting members.
 
 Communication Plan
 ------------------
@@ -113,6 +113,7 @@ If needed, the working group may ask the board of directors for any funds needed
 
 Participants
 ------------
+
 The Python Steering Council are permanent members of this working group.
 The initial workgroup members include:
 

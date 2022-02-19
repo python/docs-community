@@ -8,6 +8,6 @@ Charter
 
 .. toctree::
 
-   workgroup_charter
+   charter
    adding-members
    milestones
