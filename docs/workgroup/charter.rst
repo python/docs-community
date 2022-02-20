@@ -79,7 +79,7 @@ decided using the voting procedures detailed below.
 Voting
 ~~~~~~
 
-A vote for any proposal will last for 5 days, or when all voting members have
+A vote for any proposal will last for 7 days, or when all voting members have
 voted, whichever comes first. For a proposal to be successful, it must have at
 least two +1's, more +1's than -0's, and no -1. Votes may be held in any venue
 agreed to by all voting members.
@@ -94,7 +94,7 @@ on `Discourse <https://discuss.python.org>`_.
 The existing `Doc-SIG mailing list <https://mail.python.org/mailman/listinfo/doc-sig>`_
 will continue, but will not be the primary
 communication method for the workgroup or for recruiting additional contributors.
-From time to time, the working group will post announcements, such as meeting
+From time to time, the working group may post announcements, such as meeting
 details, to the Doc-SIG list.
 
 The group will also meet on a regular basis to discuss the state of Python's
@@ -104,9 +104,6 @@ documentation. Topics might include:
   and what to do about it.
 - Which parts of the documentation require updating most urgently.
 - New documents/sections that should be created to meet community needs.
-
-The monthly meeting will be held using the PSF's preferred conference meeting
-tool.
 
 Budget
 ------
