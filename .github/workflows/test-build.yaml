@@ -24,3 +24,6 @@ jobs:
 
       - name: Build docs
         run: python -bb -X dev -W error -m sphinx -n -E -a -W --keep-going docs build
+
+      - name: Check links
+        run: python -b -X dev -m sphinx -b linkcheck -W --keep-going docs build
