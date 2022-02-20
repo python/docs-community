@@ -1,25 +1,25 @@
-===============================
-CPython Documentation Workgroup
-===============================
+===================================
+CPython Documentation Working Group
+===================================
 
 Purpose & Common Goals
 ----------------------
 
-The purpose of this working group is to support the larger efforts of improving
-and maintaining CPython's Documentation through documentation curation,
-internationalization, and special projects. It will largely focus on efforts
-such as CPython documentation, tutorials, how-to documents, dev guide and other
-documentation in support of the PSF's mission of expanding the users of Python
-globally. Quality and effectiveness will be key goals as will be building a
+This workgroup will support efforts to improve
+and maintain CPython's documentation through curation,
+internationalization, and special projects. Its focus will also include
+tutorials, how-to documents, the devguide and other documentation in support
+of the PSF's mission to expand the global Python userbase.
+Quality and effectiveness will be key goals as we build a
 diverse team of community members, documentarians, and core developers.
 
-Things the DocWG could do:
+Things the workgroup could do:
 
 - Develop the governance model for docs
 - Be the steering council for docs
 - Be the authors of doc guidelines
 - Be the authors/editors of docs
-- Request grant funding from PSF, if needed.
+- Request grant funding from PSF, if needed
 - Form an editorial board for docs including core devs, educators, and
   documentarians in the Python community
 
@@ -29,7 +29,7 @@ Active Time
 This workgroup will be active indefinitely while supported by the Python
 Steering Council.
 
-Core Values & Internal Government
+Core Values & Internal Governance
 ---------------------------------
 
 The core values for this group are:
@@ -40,14 +40,15 @@ The core values for this group are:
 - Constructiveness
 - Integrity
 
-The workgroup adopts the PSF Code of Conduct (https://www.python.org/psf/codeofconduct/).
-Any actions (found by a majority) made against the principles in the Code of
-Conduct will result in the acting person being removed from the workgroup.
+The workgroup adopts the `PSF Code of Conduct <https://www.python.org/psf/codeofconduct/>`_.
+Any action by a workgroup member, as decided by a majority of the group,
+that violates the principles in the Code of Conduct will result in that member
+being removed from the workgroup.
 
 Rules & Guidelines
 ------------------
 
-- At any time the Python Steering Council may, at its discretion, add any number
+- At any time, the Python Steering Council may, at its discretion, add any number
   of non-voting observers to the working group to observe and participate in
   discussion.
 - The group's purview includes the Sphinx documentation included in the Python
@@ -58,40 +59,43 @@ Rules & Guidelines
 - The editorial board will include people outside of the core developers who are
   tech writers or educators.
 
-Decision Making Procedures
+Decision-Making Procedures
 --------------------------
 
-Decisions will be done using the voting procedures outlined below. Anyone may
+Decisions will be made using the voting procedures outlined below. Anyone may
 propose or request a topic for a decision.
 
-- In general, a topic for decision should address one of the workgroup's goals:
+In general, a topic for decision should address one of the workgroup's goals:
+
 - Improve or maintain the state of Python's documentation effort by some
   noticeable or measurable amount.
-- Increase the participation of contributors to documentation
+- Increase the participation of contributors to documentation.
 
-When adding new members to the working group, prospective members must send an
-email to introduce themselves along with a description of why they want to be
-a member and what they bring to the process. Approval of new members will be
+To be considered for membership, prospective members must send an
+email introducing themselves, along with a description of why they want to be
+a member and what they bring to the group. Approval of new members will be
 decided using the voting procedures detailed below.
 
 Voting
-------
+~~~~~~
 
 A vote for any proposal will last for 5 days, or when all voting members have
-voted, whichever comes first. For a proposal to be successful it must have at
-least two +1's, more +1's than -0's, and no -1. Voting may be done in any venue
-given agreement of all voting members.
+voted, whichever comes first. For a proposal to be successful, it must have at
+least two +1's, more +1's than -0's, and no -1. Votes may be held in any venue
+agreed to by all voting members.
 
 Communication Plan
 ------------------
 
-The working group will communicate via the Documentation category on
-Discourse (http://discuss.python.org).
+The working group will communicate via the
+`Documentation category <https://discuss.python.org/tags/c/core-dev/documentation>`_
+on `Discourse <https://discuss.python.org>`_.
 
-The existing Doc-SIG mailing list will continue but will not be the primary
+The existing `Doc-SIG mailing list <https://mail.python.org/mailman/listinfo/doc-sig>`_
+will continue, but will not be the primary
 communication method for the workgroup or for recruiting additional contributors.
-From time to time the working group will post announcements, such as meeting
-details, to the Doc-SIG.
+From time to time, the working group will post announcements, such as meeting
+details, to the Doc-SIG list.
 
 The group will also meet on a regular basis to discuss the state of Python's
 documentation. Topics might include:
@@ -122,14 +126,14 @@ The initial workgroup members include:
 - Mariatta Wijaya
 - Julien Palard (Lead, Infrastructure/Localization)
 
-The workgroup may expand to up to 20 members with a 25% or higher representation
-of community who are not core developers.
+The workgroup may expand to up to 20 members, with a 25% or higher representation
+of community members who are not core developers.
 
-The Workgroup members will act as the Editorial Board and will make decisions
-on controversial content, if needed.
+The workgroup members will act as the editorial board for the Python
+documentation and make decisions on controversial content, if needed.
 
 Although not part of this workgroup, a Documentation Team will also be created.
-The Documentation Team will be contributors to documentation who participate
-regularly to CPython documentation and monthly meetings (synchronously or
-asynchronously). A goal of this team will be to build a global community
-around CPython documentation.
+The Documentation Team will be regular contributors to the CPython
+documentation and attend the monthly meetings (synchronously or asynchronously).
+The goal of this team will be to build a global community around the
+CPython documentation.
