@@ -5,12 +5,12 @@ CPython Documentation Working Group
 Purpose & Common Goals
 ----------------------
 
-This workgroup will support efforts to improve
+This workgroup supports efforts to improve
 and maintain CPython's documentation through curation,
-internationalization, and special projects. Its focus will also include
+internationalization, and special projects. Its focus also includes
 tutorials, how-to documents, the devguide and other documentation in support
 of the PSF's mission to expand the global Python userbase.
-Quality and effectiveness will be key goals as we build a
+Quality and effectiveness are our key goals as we build a
 diverse team of community members, documentarians, and core developers.
 
 Things the workgroup could do:
@@ -48,13 +48,15 @@ being removed from the workgroup.
 Rules & Guidelines
 ------------------
 
-- At any time, the Python Steering Council may, at its discretion, add any number
-  of non-voting observers to the working group to observe and participate in
-  discussion.
-- The group's purview includes the Sphinx documentation included in the Python
-  source repository, including the doc theme, as well as separate projects such
+- At its discretion, the Python Steering Council may add any number
+  of non-voting observers to the working group to participate in discussion.
+- The group's remit includes the Sphinx documentation included in the Python
+  source repository, including the `Python Docs Sphinx Theme
+  <https://github.com/python/python-docs-theme>`,
+  as well as separate projects such
   as the developer guide. Translations and infrastructure will be managed by
-  Julien Palard or a Steering Council appointed member.
+  the Steering Council-appointed Internationalisation Lead,
+  currently Julien Palard.
 - The group will also maintain documentation of meetings and best practices.
 - The editorial board will include people outside of the core developers who are
   tech writers or educators.
@@ -116,15 +118,15 @@ Participants
 ------------
 
 The Python Steering Council are permanent members of this working group.
-The initial workgroup members include:
+The initial workgroup members are:
 
 - Carol Willing
 - Ned Batchelder
 - Mariatta Wijaya
 - Julien Palard (Lead, Infrastructure/Localization)
 
-The workgroup may expand to up to 20 members, with a 25% or higher representation
-of community members who are not core developers.
+The working group may have up to 20 members,
+of which at least a quarter must not be core developers.
 
 The workgroup members will act as the editorial board for the Python
 documentation and make decisions on controversial content, if needed.
