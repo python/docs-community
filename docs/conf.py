@@ -1,30 +1,38 @@
-needs_sphinx = '4.0'
+# Project information
+# ===================
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-# Sphinx extensions
+project = "Documentation Community"
+author = "Documentation Team"
+
+
+# General configuration
+# =====================
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+
+# A list of strings that are module names of Sphinx extensions
 extensions = [
-    'myst_parser',
-    'sphinx_copybutton',
+    "sphinx_copybutton",
+    "myst_parser",
 ]
 
-# The suffix(es) of source filenames.
-source_suffix = ['.rst']
+# The master toctree document
+master_doc = "index"
 
-# The master toctree document.
-master_doc = 'index'
-
-# General information about the project.
-project = 'Documentation Community'
-copyright = '2021, Python'
-author = 'Documentation Team'
-
+# Patterns to exclude during source file detetection
 exclude_patterns = [
-    '_build',
-    'Thumbs.db',
-    '.DS_Store',
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
 ]
 
-# The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# Minimum Sphinx version as a string
+needs_sphinx = "4.0"
 
-# The theme to use for HTML pages.
-html_theme = 'furo'
+
+# Options for HTML output
+# =======================
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+
+# The theme to use for HTML pages
+html_theme = "furo"
