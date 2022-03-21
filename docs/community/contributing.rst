@@ -20,7 +20,7 @@ Get connected
 First off, get yourself connected with the documentation community online. There
 are a few places where we meet:
 
-- `The Python Discourse category <https://discuss.python.org/c/core-dev/documentation/26>`_
+- `The Python Discourse category <https://discuss.python.org/c/26>`_
   is the main hub for discussions.
 - `The GitHub repository <https://github.com/python/docs-community>`_
   holds this documentation and an issue tracker.
