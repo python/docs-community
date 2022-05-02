@@ -2,7 +2,9 @@
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
 
-The PSF Documentation Working Group (Docs WG) was chartered by the [Python Software Foundation](https://www.python.org/psf/) to help bootstrap a larger documentation team and community.
+The Python Documentation Working Group (Docs WG) was created and accepted by the **Python Steering Council** in 2021
+to help bootstrap a larger documentation team and community.
+
 This repo serves as documentation for the Docs WG, which is funny, in a recursive kind of way.
 
 For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/en/latest/).
