@@ -108,7 +108,7 @@ Budget
 ------
 
 The Editorial Board will not require a dedicated budget in its initial phase.
-If needed, the Editorial Board may ask the board of directors for any funds needed
+If needed, the Editorial Board may ask the PSF board of directors for any funds needed
 (for meetings, writers, translators, software development, etc.).
 
 Participants
