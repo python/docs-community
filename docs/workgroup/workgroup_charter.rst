@@ -1,11 +1,11 @@
-===============================
-CPython Documentation Workgroup
-===============================
+=======================
+CPython Editorial Board
+=======================
 
 Purpose & Common Goals
 ----------------------
 
-The purpose of this working group is to support the larger efforts of improving
+The purpose of this group is to support the larger efforts of improving
 and maintaining CPython's Documentation through documentation curation,
 internationalization, and special projects. It will largely focus on efforts
 such as CPython documentation, tutorials, how-to documents, dev guide and other
@@ -13,7 +13,7 @@ documentation in support of the PSF's mission of expanding the users of Python
 globally. Quality and effectiveness will be key goals as will be building a
 diverse team of community members, documentarians, and core developers.
 
-Things the DocWG could do:
+Things the Editorial Board could do:
 
 - Develop the governance model for docs
 - Be the steering council for docs
@@ -26,7 +26,7 @@ Things the DocWG could do:
 Active Time
 -----------
 
-This workgroup will be active indefinitely while supported by the Python
+The Editorial Board will be active indefinitely while supported by the Python
 Steering Council. 
 
 Core Values & Internal Government
@@ -64,12 +64,12 @@ Decision Making Procedures
 Decisions will be done using the voting procedures outlined below. Anyone may
 propose or request a topic for a decision.
 
-- In general, a topic for decision should address one of the workgroup's goals:
+- In general, a topic for decision should address one of the Editorial Board's goals:
 - Improve or maintain the state of Python's documentation effort by some
   noticeable or measurable amount. 
 - Increase the participation of contributors to documentation
 
-When adding new members to the working group, prospective members must send an
+When adding new members to the Editorial Board, prospective members must send an
 email to introduce themselves along with a description of why they want to be
 a member and what they bring to the process. Approval of new members will be
 decided using the voting procedures detailed below. 
@@ -107,13 +107,13 @@ tool.
 Budget
 ------
 
-The working group will not require a dedicated budget in its initial phase.
-If needed, the working group may ask the board of directors for any funds needed
+The Editorial Board will not require a dedicated budget in its initial phase.
+If needed, the Editorial Board may ask the board of directors for any funds needed
 (for meetings, writers, translators, software development, etc.).
 
 Participants
 ------------
-The Python Steering Council are permanent members of this working group.
+The Python Steering Council are permanent members of the Editorial Board.
 The initial workgroup members include:
 
 - Carol Willing
@@ -121,13 +121,13 @@ The initial workgroup members include:
 - Mariatta Wijaya
 - Julien Palard (Lead, Infrastructure/Localization)
 
-The workgroup may expand to up to 20 members with a 25% or higher representation
+The Editorial Board may expand to up to 20 members with a 25% or higher representation
 of community who are not core developers.
 
-The Workgroup members will act as the Editorial Board and will make decisions
+The Editorial Board will make decisions
 on controversial content, if needed.
 
-Although not part of this workgroup, a Documentation Team will also be created.
+Although not part of this Editorial Board, a Documentation Team will also be created.
 The Documentation Team will be contributors to documentation who participate
 regularly to CPython documentation and monthly meetings (synchronously or
 asynchronously). A goal of this team will be to build a global community

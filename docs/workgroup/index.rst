@@ -1,8 +1,8 @@
 .. _governance-index:
 
-==============
-Docs Workgroup
-==============
+===============
+Editorial Board
+===============
 
 Charter
 
