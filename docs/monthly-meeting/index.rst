@@ -15,3 +15,4 @@ Monthly reports in reverse chronological order.
    Mar 2022 <2022-03.md>
    Apr 2022 <2022-04.md>
    May 2022 <2022-05.md>
+   Jun 2022 <2022-06.md>
