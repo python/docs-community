@@ -16,3 +16,4 @@ Monthly reports in reverse chronological order.
    Apr 2022 <2022-04.md>
    May 2022 <2022-05.md>
    Jun 2022 <2022-06.md>
+   Jul 2022 <2022-07.md>
