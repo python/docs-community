@@ -19,3 +19,4 @@ Monthly reports in reverse chronological order.
    Jul 2022 <2022-07.md>
    Aug 2022 <2022-08.md>
    Sep 2022 <2022-09.md>
+   Oct 2022 <2022-10.md>
