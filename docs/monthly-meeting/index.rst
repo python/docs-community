@@ -22,3 +22,4 @@ Monthly reports in reverse chronological order.
    Oct 2022 <2022-10.md>
    Nov 2022 <2022-11.md>
    Dec 2022 <2022-12.md>
+   Jan 2023 <2023-01.md>
