@@ -3,7 +3,7 @@
 Monthly Reports Archive
 =======================
 
-Current agenda: TBD
+`Current agenda <https://hackmd.io/@encukou/pydocswg1>`_
 
 Monthly reports in reverse chronological order.
 
