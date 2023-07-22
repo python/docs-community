@@ -44,6 +44,6 @@ html_theme = "furo"
 
 # A list of patterns to ignore when checking for broken links
 linkcheck_ignore = [
-    "https:\/\/[a-zA-Z0-9.-]+\.org\.readthedocs\.build\/[a-zA-Z0-9.-]+\/[a-zA-Z0-9.-]+\/",  # RTD preview builds
-    "https://plausible.io/share/hugovk-cpython.readthedocs.io?auth=XDF9fK3EB2dEHCr4sC9hn",  # Deleted Plausible link
+    r"https://[a-zA-Z0-9.-]+\.org\.readthedocs\.build/[a-zA-Z0-9.-]+/[a-zA-Z0-9.-]+/",  # RTD preview builds
+    r"https://plausible\.io/share/hugovk-cpython\.readthedocs\.io\?auth=XDF9fK3EB2dEHCr4sC9hn",  # Deleted Plausible page
 ]
