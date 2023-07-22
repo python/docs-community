@@ -28,3 +28,4 @@ Monthly reports in reverse chronological order.
    Apr 2023 <2023-04.md>
    May 2023 <2023-05.md>
    Jun 2023 <2023-06.md>
+   Jul 2023 <2023-07.md>
