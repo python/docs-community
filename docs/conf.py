@@ -36,3 +36,14 @@ needs_sphinx = "4.0"
 
 # The theme to use for HTML pages
 html_theme = "furo"
+
+
+# Options for the linkcheck builder
+# =================================
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
+
+# A list of patterns to ignore when checking for broken links
+linkcheck_ignore = [
+    "https:\/\/[a-zA-Z0-9.-]+\.org\.readthedocs\.build\/[a-zA-Z0-9.-]+\/[a-zA-Z0-9.-]+\/",  # RTD preview builds
+    "https://plausible.io/share/hugovk-cpython.readthedocs.io?auth=XDF9fK3EB2dEHCr4sC9hn",  # Deleted Plausible link
+]
