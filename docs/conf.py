@@ -48,4 +48,6 @@ linkcheck_ignore = [
     r"https://[a-zA-Z0-9.-]+\.org\.readthedocs\.build/[a-zA-Z0-9.-]+/[a-zA-Z0-9.-]+/",
     # Deleted Plausible page:
     r"https://plausible\.io/share/hugovk-cpython\.readthedocs\.io\?auth=XDF9fK3EB2dEHCr4sC9hn",
+    # HackMD anchors:
+    r"https://hackmd\.io/[^?]+\?[^#]+#.+"
 ]
