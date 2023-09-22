@@ -3,7 +3,6 @@ myst-parser
 furo
 sphinx-copybutton
 sphinx-autobuild
-pre-commit
 
 # TODO remove docutils pin when this issue fixed:
 # https://github.com/executablebooks/MyST-Parser/issues/612
