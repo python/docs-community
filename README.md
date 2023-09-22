@@ -36,4 +36,3 @@ For example, to find out more about us and what we do, [read the docs](https://d
    ```console
    sphinx-autobuild --open-browser docs docs/_build
    ```
-
