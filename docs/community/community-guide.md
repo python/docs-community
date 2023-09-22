@@ -25,4 +25,3 @@ In this respect, we are using:
 questions, or just as a place where we can inspire each other.
 
 ## How can I help?
-

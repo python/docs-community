@@ -1,5 +1,5 @@
 ==============================
-Python Documentation Community 
+Python Documentation Community
 ==============================
 
 The following pages contain information about the documentation workgroup,

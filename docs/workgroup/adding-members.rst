@@ -7,4 +7,3 @@ them.
 
 Adding a new workgroup member
 =============================
-

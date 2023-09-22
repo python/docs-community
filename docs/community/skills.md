@@ -2,7 +2,7 @@
 
 ## Where to start?
 
-The short answer to this question is: follow your interests :-) 
+The short answer to this question is: follow your interests :-)
 
 ## A few general ways to help out
 
@@ -25,5 +25,3 @@ you scope the work you'd like to do, and to set expectations.
 ## Resources for Learning
 
 In this section, we gather some introductory materials for learning the aforementioned tools.
-
-
