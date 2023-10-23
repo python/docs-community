@@ -36,6 +36,8 @@ needs_sphinx = "4.0"
 
 # The theme to use for HTML pages
 html_theme = "furo"
+html_logo = "_static/logo.webp"
+html_favicon = "_static/logo.webp"
 
 
 # Options for the linkcheck builder
