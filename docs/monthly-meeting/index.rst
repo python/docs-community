@@ -32,3 +32,4 @@ Monthly reports in reverse chronological order.
    Aug 2023 <2023-08.md>
    Sep 2023 <2023-09.md>
    Oct 2023 <2023-10.md>
+   Nov 2023 <2023-11.md>
