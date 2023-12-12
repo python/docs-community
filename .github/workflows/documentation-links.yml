@@ -14,3 +14,6 @@ jobs:
       - uses: readthedocs/actions/preview@v1
         with:
           project-slug: "docs-community"
+          message-template: |
+            ---
+            📚 Documentation preview 📚: {docs-pr-index-url}
