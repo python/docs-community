@@ -1,6 +1,5 @@
 ci:
   autofix_prs: false
-  autoupdate_branch: "pre-commit-autoupdate"
   autoupdate_schedule: monthly
 
 repos:
