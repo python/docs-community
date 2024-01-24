@@ -2,10 +2,10 @@
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
 
-The Python Documentation Working Group (Docs WG) was created and accepted by the **Python Steering Council** in 2021
-to help bootstrap a larger documentation team and community.
+The Python Documentation Editorial Board (Docs EB) was created and accepted by the **Python Steering Council** in 2023
+in [PEP 732](https://peps.python.org/pep-0732/) to help bootstrap a larger documentation team and community.
 
-This repo serves as documentation for the Docs WG, which is funny, in a recursive kind of way.
+This repo serves as documentation for the Docs EB, which is funny, in a recursive kind of way.
 
 For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/en/latest/).
 
