@@ -2,10 +2,19 @@
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
 
-The Python Documentation Editorial Board (Docs EB) was created and accepted by the **Python Steering Council** in 2023
-in [PEP 732](https://peps.python.org/pep-0732/) to help bootstrap a larger documentation team and community.
+![pep-0732-concentric.drawio.svg](pep-0732-concentric.drawio.svg)
 
-This repo serves as documentation for the Docs EB, which is funny, in a recursive kind of way.
+1. Editorial Board (Approved in 2023 by Steering Council and described in
+   [PEP 732](https://peps.python.org/pep-0732/))<br>
+   Referred to as Editorial Board or EB<br>
+   Repo: [python/editorial-board](https://github.com/python/editorial-board)
+2. Documentation Community Group (Working Group created in 2021 by the Python
+   Steering Council)<br>
+   Referred to as the Documentation Community or docs-community<br>
+   Repo: [python/docs-community](https://github.com/python/docs-community)
+3. Users of Python Documentation
+
+This repo serves as documentation for the docs-community.
 
 For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/en/latest/).
 
