@@ -2,7 +2,13 @@
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
 
-![pep-0732-concentric.drawio.svg](pep-0732-concentric.drawio.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="pep732-circles-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="pep732-circles-light.png">
+  <img
+   alt="Three concentric circles. At the centre: Documentation Editorial Board, trusted group. Around this: Documentation Working Group, volunteers who contribute to the docs. Finally, the outer circle is the world, includes readers of the documentation."
+   src="pep732-circles-light.png">
+</picture>
 
 1. Editorial Board (Approved in 2023 by Steering Council and described in
    [PEP 732](https://peps.python.org/pep-0732/))<br>
