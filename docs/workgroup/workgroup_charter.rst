@@ -1,3 +1,7 @@
+:orphan:
+
+.. This page is retained solely for existing links.
+
 ===============================
 CPython Documentation Workgroup
 ===============================

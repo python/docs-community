@@ -2,18 +2,18 @@
 Python Documentation Community
 ==============================
 
-The following pages contain information about the documentation workgroup,
-the documentation community team and
-community team, resources for community members, and workgroup practices for
-governance and planning.
+These pages explain the Python Documentation Community and its processes.
 
 .. toctree::
    :maxdepth: 2
 
-   workgroup/index
    community/index
    monthly-meeting/index
-   GitHub repository <https://github.com/python/docs-community>
+   editorial-board/index
+   GitHub docs-community <https://github.com/python/docs-community>
+   GitHub editorial-board <https://github.com/python/editorial-board>
+   Dev Guide <https://devguide.python.org/documentation/>
+   Python Docs <https://docs.python.org>
 
 Why have this repo?
 ===================
@@ -28,8 +28,6 @@ needed. The repo contains:
 
 - team meeting agendas and archives
 - direction and action plans
-- communication and culture of respectful teamwork
-- recognitions and team celebrations
 
 Code of Conduct
 ===============

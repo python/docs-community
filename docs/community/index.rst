@@ -18,4 +18,3 @@ The Documentation Community Team has a Code of Conduct
     contributing
     community-guide
     skills
-    team
