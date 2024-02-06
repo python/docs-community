@@ -1,6 +1,7 @@
 # Python Documentation Community
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
+![Discourse](https://img.shields.io/badge/discourse-chat-brightgreen)
 
 ![pep-0732-concentric.drawio.svg](pep-0732-concentric.drawio.svg)
 
@@ -14,7 +15,7 @@
    Repo: [python/docs-community](https://github.com/python/docs-community)
 3. Users of Python Documentation
 
-This repo serves as documentation for the docs-community.
+This repo serves as documentation for the Documentation Community Group.
 
 For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/en/latest/).
 
@@ -40,6 +41,7 @@ For example, to find out more about us and what we do, [read the docs](https://d
    ```console
    python -m pip install -r requirements.txt
    ```
+
 5. Build the docs, open them in your browser and update whenever changes are made
 
    ```console
