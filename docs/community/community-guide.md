@@ -13,7 +13,7 @@ a quick list to get you started.
 - [docs](https://docs.python.org)
 - python_docs_theme
 - [discourse category](https://discuss.python.org/c/documentation/26)
-- discord channel
+- Discord server
 
 ### General information about communication channels
 
