@@ -12,7 +12,7 @@ a quick list to get you started.
 - [devguide](https://devguide.python.org)
 - [docs](https://docs.python.org)
 - python_docs_theme
-- discourse channel
+- [discourse category](https://discuss.python.org/c/documentation/26)
 - discord channel
 
 ### General information about communication channels
