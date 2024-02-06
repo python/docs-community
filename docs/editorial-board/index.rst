@@ -4,8 +4,7 @@
 Editorial Board
 ===============
 
-The acceptance of `PEP 732 <https://peps.python.org/pep-0732/>`_ established
-the Python Documentation Editorial Board.
+The acceptance of :pep:`732` established the Python Documentation Editorial Board.
 
 Monthly Editorial Board Meetings
 ================================

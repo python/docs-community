@@ -8,11 +8,12 @@ team!
 
 There are a few resources that are particularly useful for team members. Here's
 a quick list to get you started.
-- devguide
-- docs
+
+- [devguide](https://devguide.python.org)
+- [docs](https://docs.python.org)
 - python_docs_theme
 - discourse channel
-
+- discord channel
 
 ### General information about communication channels
 
@@ -20,8 +21,12 @@ We are trying to organize our discussions in order to help both contributors and
 maintainers find and choose the right communication channels and have a positive experience :-)
 
 In this respect, we are using:
-1. [BPO](https://bugs.python.org) and GitHub issues for specific discussions related to changing a repository's content. This is determined by doc project.
+
+1. GitHub issues for specific discussions related to changing a repository's content.
 2. The [Discourse forum](http://discuss.python.org/) for general discussions, support
 questions, or just as a place where we can inspire each other.
 
 ## How can I help?
+
+Read the devguide's section on documentation.
+Visit the Python repo's GitHub issues and look for issues tagged with `docs`.
