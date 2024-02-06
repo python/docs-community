@@ -23,7 +23,7 @@ maintainers find and choose the right communication channels and have a positive
 In this respect, we are using:
 
 1. GitHub issues for specific discussions related to changing a repository's content.
-2. The [Discourse forum](http://discuss.python.org/) for general discussions, support
+2. The [Discourse forum](https://discuss.python.org/c/documentation/26) for general discussions, support
 questions, or just as a place where we can inspire each other.
 
 ## How can I help?
