@@ -12,8 +12,8 @@ These pages explain the Python Documentation Community and its processes.
    editorial-board/index
    GitHub docs-community <https://github.com/python/docs-community>
    GitHub editorial-board <https://github.com/python/editorial-board>
-   Dev Guide - Documentation <https://devguide.python.org/documentation/>
-   Python Documentation <https://docs.python.org>
+   Dev Guide <https://devguide.python.org/documentation/>
+   Python Docs <https://docs.python.org>
 
 Why have this repo?
 ===================
