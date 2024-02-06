@@ -10,7 +10,9 @@ permissions:
 jobs:
   documentation-links:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: readthedocs/actions/preview@v1
         with:
           project-slug: "docs-community"
+          single-version: "true"
