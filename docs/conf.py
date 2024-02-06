@@ -32,9 +32,9 @@ needs_sphinx = "4.0"
 
 # Intersphinx configuration
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'devguide': ('https://devguide.python.org/', None),
-    'pep': ('https://peps.python.org/', None),
+    "python": ("https://docs.python.org/3/", None),
+    "devguide": ("https://devguide.python.org/", None),
+    "pep": ("https://peps.python.org/", None),
 }
 intersphinx_disabled_reftypes = []
 

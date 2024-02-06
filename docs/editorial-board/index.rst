@@ -11,7 +11,7 @@ Monthly Editorial Board Meetings
 
 The Editorial Board's private meetings are held monthly on the second Monday
 at 1:30pm Pacific.
-After each meeting the Editorial Board will post a summary in the 
+After each meeting the Editorial Board will post a summary in the
 `python/editorial-board repository <https://github.com/python/editorial-board>`_.
 
 Working with the Editorial Board
