@@ -5,7 +5,7 @@ Monthly Reports Archive
 
 `Current agenda <https://hackmd.io/@encukou/pydocswg1>`_
 
-Monthly reports in reverse chronological order.
+Monthly reports in chronological order.
 
 .. toctree::
    :maxdepth: 1
