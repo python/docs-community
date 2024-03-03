@@ -1,7 +1,7 @@
 # Python Documentation Community
 
 [![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
-![Discourse](https://img.shields.io/badge/discourse-chat-brightgreen)
+[![Python Discourse Documentation Category](https://img.shields.io/badge/discourse-join_chat-brightgreen.svg)](https://discuss.python.org/c/documentation/26)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="pep732-circles-dark.png">
