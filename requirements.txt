@@ -1,7 +1,5 @@
 Sphinx
-# myst-parser fixed the docutils warnings. Pinning to current SHA until
-# a new release greater than 2.0.0 is made.
-git+https://github.com/executablebooks/MyST-Parser.git@978e845543b5bcb7af0ff89cac9f798cb8c16ab3
+MyST-Parser
 furo
 sphinx-copybutton
 sphinx-autobuild
