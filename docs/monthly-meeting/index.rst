@@ -23,3 +23,4 @@ Monthly reports in chronological order.
    May 2024 <2024-05.md>
    Jun 2024 <2024-06.md>
    Jul 2024 <2024-07.md>
+   Aug 2024 <2024-08.md>
