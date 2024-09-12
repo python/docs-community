@@ -52,10 +52,11 @@ html_theme = "furo"
 
 # A list of patterns to ignore when checking for broken links
 linkcheck_ignore = [
+    # The crawler gets "Anchor not found"
+    r"https://github.com.+?#.*",
+    r"https://hackmd\.io/[^?]+\?[^#]+#.+",
     # RTD preview builds:
     r"https://[a-zA-Z0-9.-]+\.org\.readthedocs\.build/[a-zA-Z0-9.-]+/[a-zA-Z0-9.-]+/",
     # Deleted Plausible page:
     r"https://plausible\.io/share/hugovk-cpython\.readthedocs\.io\?auth=XDF9fK3EB2dEHCr4sC9hn",
-    # HackMD anchors:
-    r"https://hackmd\.io/[^?]+\?[^#]+#.+",
 ]
