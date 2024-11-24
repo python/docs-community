@@ -5,25 +5,102 @@ Monthly Reports Archive
 
 `Current agenda <https://hackmd.io/@encukou/pydocswg1>`_
 
-Monthly reports in chronological order.
+Monthly reports in reverse chronological order.
 
 .. Around May, reports from the past year should be moved into a section
    to avoid the ToC getting too long.
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Monthly reports
 
-   2022 <2022.rst>
-   2023 <2023.rst>
-   Jan 2024 <2024-01.md>
-   Feb 2024 <2024-02.md>
-   Mar 2024 <2024-03.md>
-   Apr 2024 <2024-04.md>
-   May 2024 <2024-05.md>
-   Jun 2024 <2024-06.md>
-   Jul 2024 <2024-07.md>
-   Aug 2024 <2024-08.md>
-   Sep 2024 <2024-09.md>
-   Oct 2024 <2024-10.md>
-   Nov 2024 <2024-11.md>
+.. raw:: html
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        .grid-year {
+            font-weight: bold;
+            color: #757575;
+            font-size: 1.5em
+        }
+        .grid-item ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: #5da3e3;
+        }
+        .grid-item ul li a {
+            text-decoration: none;
+            color: #5da3e3;
+        }
+        .grid-item ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+.. raw:: html
+
+    <div class="grid">
+
+.. raw:: html
+
+        <div class="grid-item">
+            <span class="grid-year">2024</span>
+            <ul>
+                <li><a href="2024-11.html">November, 2024</a></li>
+                <li><a href="2024-10.html">October, 2024</a></li>
+                <li><a href="2024-09.html">September, 2024</a></li>
+                <li><a href="2024-08.html">August, 2024</a></li>
+                <li><a href="2024-07.html">July, 2024</a></li>
+                <li><a href="2024-06.html">June, 2024</a></li>
+                <li><a href="2024-05.html">May, 2024</a></li>
+                <li><a href="2024-04.html">April, 2024</a></li>
+                <li><a href="2024-03.html">March, 2024</a></li>
+                <li><a href="2024-02.html">February, 2024</a></li>
+                <li><a href="2024-01.html">January, 2024</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item">
+            <span class="grid-year">2023</span>
+            <ul>
+                <li><a href="2023-12.html">December, 2023</a></li>
+                <li><a href="2023-11.html">November, 2023</a></li>
+                <li><a href="2023-10.html">October, 2023</a></li>
+                <li><a href="2023-09.html">September, 2023</a></li>
+                <li><a href="2023-08.html">August, 2023</a></li>
+                <li><a href="2023-07.html">July, 2023</a></li>
+                <li><a href="2023-06.html">June, 2023</a></li>
+                <li><a href="2023-05.html">May, 2023</a></li>
+                <li><a href="2023-04.html">April, 2023</a></li>
+                <li><a href="2023-03.html">March, 2023</a></li>
+                <li><a href="2023-02.html">February, 2023</a></li>
+                <li><a href="2023-01.html">January, 2023</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item">
+            <span class="grid-year">2022</span>
+            <ul>
+                <li><a href="2022-12.html">December, 2022</a></li>
+                <li><a href="2022-11.html">November, 2022</a></li>
+                <li><a href="2022-10.html">October, 2022</a></li>
+                <li><a href="2022-09.html">September, 2022</a></li>
+                <li><a href="2022-08.html">August, 2022</a></li>
+                <li><a href="2022-07.html">July, 2022</a></li>
+                <li><a href="2022-06.html">June, 2022</a></li>
+                <li><a href="2022-05.html">May, 2022</a></li>
+                <li><a href="2022-04.html">April, 2022</a></li>
+                <li><a href="2022-03.html">March, 2022</a></li>
+                <li><a href="2022-02.html">February, 2022</a></li>
+            </ul>
+        </div>
+
+.. raw:: html
+
+    </div>
+
+
+
+
