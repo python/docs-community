@@ -12,19 +12,19 @@ Monthly reports in reverse chronological order.
 
 .. toctree::
    :maxdepth: 2
-   monthly-meeting/2022
-   monthly-meeting/2023
-   monthly-meeting/2024-01
-   monthly-meeting/2024-02
-   monthly-meeting/2024-03
-   monthly-meeting/2024-04
-   monthly-meeting/2024-05
-   monthly-meeting/2024-06
-   monthly-meeting/2024-07
-   monthly-meeting/2024-08
-   monthly-meeting/2024-09
-   monthly-meeting/2024-10
-   monthly-meeting/2024-11
+   2022
+   2023
+   2024-01
+   2024-02
+   2024-03
+   2024-04
+   2024-05
+   2024-06
+   2024-07
+   2024-08
+   2024-09
+   2024-10
+   2024-11
 
 
 .. raw:: html
