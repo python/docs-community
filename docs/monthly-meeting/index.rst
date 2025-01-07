@@ -28,3 +28,4 @@ Monthly reports in chronological order.
    Oct 2024 <2024-10.md>
    Nov 2024 <2024-11.md>
    Dec 2024 <2024-12.md>
+   Jan 2025 <2025-01.md>
