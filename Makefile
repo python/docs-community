@@ -51,7 +51,7 @@ ensure-venv:
 	@if [ ! -d $(VENVDIR) ] ; then \
 		echo "Creating venv in $(VENVDIR)"; \
 		if uv --version > /dev/null; then \
-			uv venv $(VENVDIR); \
+			uv venv --python=$(PYTHON) $(VENVDIR); \
 			VIRTUAL_ENV=$(VENVDIR) uv pip install -r requirements.txt; \
 		else \
 			$(PYTHON) -m venv $(VENVDIR); \
