@@ -56,7 +56,7 @@ linkcheck_ignore = [
     r"https://github.com.+?#.*",
     r"https://hackmd\.io/[^?]+\?[^#]+#.+",
     # Google Meet gives 404
-    r"https://meet.google.com/.*"
+    r"https://meet.google.com/.*",
     # RTD preview builds:
     r"https://[a-zA-Z0-9.-]+\.org\.readthedocs\.build/[a-zA-Z0-9.-]+/[a-zA-Z0-9.-]+/",
     # Deleted pages:
