@@ -1,11 +1,11 @@
 repos:
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 24.4.2
+    rev: 25.1.0
     hooks:
       - id: black
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-case-conflict
       - id: check-merge-conflict
@@ -14,9 +14,14 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/sphinx-contrib/sphinx-lint
-    rev: v0.9.1
+    rev: v1.0.0
     hooks:
       - id: sphinx-lint
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+    - id: codespell
 
   - repo: meta
     hooks:
