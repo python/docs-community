@@ -8,7 +8,7 @@ or 20:00 UTC on the `Discord server <https://discord.gg/sMWqvzXvde>`_ and last o
 Check the agenda or Discourse announcement to verify the start time.
 
 The agenda and later the meeting minutes are written in the `HackMD <https://hackmd.io/@encukou/pydocswg1>`_.
-To edit notes, click the “pencil” or “split view” button on the `HackMD Document<https://hackmd.io/@encukou/pydocswg1>`_.
+To edit notes, click the “pencil” or “split view” button on the `HackMD Document <https://hackmd.io/@encukou/pydocswg1>`_.
 You will need to log in with, for example, a GitHub account.
 
 To receive notifications about upcoming meetings you can click the "Interested"
