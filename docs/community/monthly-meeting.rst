@@ -3,12 +3,12 @@
 Documentation Community Monthly Meetings
 ========================================
 
-Monthly meetings are held on the first Tuesday of the month generally around 20:00 UTC
-on the `Discord server <https://discord.gg/sMWqvzXvde>`_.
+Monthly meetings are held on the first Tuesday of the month generally around 19:00
+or 20:00 UTC on the `Discord server <https://discord.gg/sMWqvzXvde>`_ and last one hour.
+Check the agenda or Discourse announcement to verify the start time.
 
-Meeting notes are written in the `HackMD <https://hackmd.io/@encukou/pydocswg1>`_.
-To edit notes, click the “pencil” or “split view” button on the `HackMD Document
-<https://hackmd.io/@encukou/pydocswg1>`_.
+The agenda and later the meeting minutes are written in the `HackMD <https://hackmd.io/@encukou/pydocswg1>`_.
+To edit notes, click the “pencil” or “split view” button on the `HackMD Document<https://hackmd.io/@encukou/pydocswg1>`_.
 You will need to log in with, for example, a GitHub account.
 
 To receive notifications about upcoming meetings you can click the "Interested"
