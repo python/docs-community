@@ -17,4 +17,5 @@ The Documentation Community Team has a Code of Conduct
 
     contributing
     community-guide
+    monthly-meeting
     skills
