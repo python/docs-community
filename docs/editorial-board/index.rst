@@ -9,7 +9,7 @@ The acceptance of :pep:`732` established the Python Documentation Editorial Boar
 Monthly Editorial Board Meetings
 ================================
 
-The Editorial Board's private meetings are held monthly on the second Monday
+The Editorial Board's private meetings are held monthly on the second Tuesday
 at 1:30pm Pacific.
 After each meeting the Editorial Board will post a summary in the
 `python/editorial-board repository <https://github.com/python/editorial-board>`_.
