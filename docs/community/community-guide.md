@@ -11,9 +11,9 @@ a quick list to get you started.
 
 - [devguide](https://devguide.python.org)
 - [docs](https://docs.python.org)
-- python_docs_theme
+- [Python Docs Sphinx Theme](https://github.com/python/python-docs-theme)
 - [discourse category](https://discuss.python.org/c/documentation/26)
-- Discord server
+- [Discord server](https://discord.gg/sMWqvzXvd)
 
 ### General information about communication channels
 
