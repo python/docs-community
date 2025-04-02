@@ -45,7 +45,7 @@ intersphinx_disabled_reftypes = []
 # The theme to use for HTML pages
 html_theme = "furo"
 
-html_title = "Python Documentation Community"
+html_title = "Python Docs Community Group"
 
 # Options for the linkcheck builder
 # =================================
