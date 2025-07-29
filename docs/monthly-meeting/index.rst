@@ -23,3 +23,4 @@ Monthly reports in chronological order.
    Apr 2025 <2025-04.md>
    May 2025 <2025-05.md>
    Jun 2025 <2025-06.md>
+   Jul 2025 <2025-07.md>
