@@ -1,6 +1,6 @@
 # Python Documentation Community
 
-[![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/docs-community/badge/?version=latest)](https://docs-community.readthedocs.io/?badge=latest)
 [![Python Discourse Documentation Category](https://img.shields.io/badge/discourse-join_chat-brightgreen.svg)](https://discuss.python.org/c/documentation/26)
 
 <picture>
@@ -23,7 +23,7 @@
 
 This repo serves as documentation for the Documentation Community Group.
 
-For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/en/latest/).
+For example, to find out more about us and what we do, [read the docs](https://docs-community.readthedocs.io/).
 
 ## Build docs and view changes
 
@@ -37,19 +37,11 @@ For example, to find out more about us and what we do, [read the docs](https://d
 2. Create a new Python virtual environment
 
    ```console
-   python -m venv docs-wg-env
+   make venv
    ```
 
-3. Activate the environment ([platform/shell-specific](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments))
-
-4. Install dependencies
+3. Build the docs, open them in your browser and update whenever changes are made
 
    ```console
-   python -m pip install -r requirements.txt
-   ```
-
-5. Build the docs, open them in your browser and update whenever changes are made
-
-   ```console
-   sphinx-autobuild --open-browser docs docs/_build
+   make htmllive
    ```
