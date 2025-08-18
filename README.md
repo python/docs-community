@@ -43,5 +43,5 @@ For example, to find out more about us and what we do, [read the docs](https://d
 3. Build the docs, open them in your browser and update whenever changes are made
 
    ```console
-   make html
+   make htmllive
    ```
