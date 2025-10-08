@@ -18,3 +18,10 @@ receive email notifications contact Mariatta in the Discord server.
 By participating in meetings, you are agreeing to abide by and uphold the
 `PSF Code of Conduct <https://policies.python.org/python.org/code-of-conduct/>`_.
 Please take a second to read through it!
+
+
+Minutes template
+----------------
+
+.. literalinclude:: ../include/minutes-template.md
+  :language: md

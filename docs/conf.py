@@ -20,11 +20,12 @@ extensions = [
 # The master toctree document
 master_doc = "index"
 
-# Patterns to exclude during source file detetection
+# Patterns to exclude during source file detection
 exclude_patterns = [
     "_build",
     "Thumbs.db",
     ".DS_Store",
+    "include/minutes-template.md",
 ]
 
 # Minimum Sphinx version as a string
