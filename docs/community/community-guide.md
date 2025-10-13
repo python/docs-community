@@ -9,11 +9,12 @@ team!
 There are a few resources that are particularly useful for team members. Here's
 a quick list to get you started.
 
-- [devguide](https://devguide.python.org)
-- [docs](https://docs.python.org)
+- [Python Developers Guide (DevGuide)](https://devguide.python.org)
+- [Python documentation](https://docs.python.org/3/)
 - [Python Docs Sphinx Theme](https://github.com/python/python-docs-theme)
-- [discourse category](https://discuss.python.org/c/documentation/26)
-- [Discord server](https://discord.gg/sMWqvzXvd)
+- [Python docs translations dashboard](https://python-docs-translations.github.io/dashboard/)
+- [Documentation Discourse category](https://discuss.python.org/c/documentation/26)
+- [Discord server](https://discord.gg/DJxvZXNHm2)
 
 ### General information about communication channels
 
