@@ -12,7 +12,7 @@ a quick list to get you started.
 - [Python Developers Guide (DevGuide)](https://devguide.python.org)
 - [Python documentation](https://docs.python.org/3/)
 - [Python Docs Sphinx Theme](https://github.com/python/python-docs-theme)
-- [Python docs translations dashboard](https://python-docs-translations.github.io/dashboard/)
+- [Python docs translations dashboard](https://translations.python.org/)
 - [Documentation Discourse category](https://discuss.python.org/c/documentation/26)
 - [Discord server](https://discord.gg/DJxvZXNHm2)
 
