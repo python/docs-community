@@ -30,4 +30,5 @@ questions, or just as a place where we can inspire each other.
 ## How can I help?
 
 Read the devguide's section on documentation.
-Visit the Python repo's GitHub issues and look for [issues tagged with "docs"](https://github.com/python/cpython/labels/docs).
+Visit the Python repo's GitHub issues and look for
+[issues tagged with "docs"](https://github.com/python/cpython/issues?q=state%3Aopen%20is%3Aissue%20label%3Adocs).
