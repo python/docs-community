@@ -28,3 +28,4 @@ Monthly reports in chronological order.
    Sep 2025 <2025-09.md>
    Oct 2025 <2025-10.md>
    Nov 2025 <2025-11.md>
+   Dec 2025 <2025-12.md>
