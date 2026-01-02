@@ -61,7 +61,6 @@ linkcheck_ignore = [
     r"https://meet.google.com/.*",
     # RTD preview builds:
     r"https://[a-zA-Z0-9.-]+\.org\.readthedocs\.build/[a-zA-Z0-9.-]+/[a-zA-Z0-9.-]+/",
-    r"https://hugovk-cpython.readthedocs.io/.*",
     # Deleted pages:
     r"https://plausible\.io/share/hugovk-cpython\.readthedocs\.io\?auth=XDF9fK3EB2dEHCr4sC9hn",
     r"https://plausible.io/docs.python.org",
