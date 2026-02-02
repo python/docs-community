@@ -67,3 +67,8 @@ linkcheck_ignore = [
     r"https://plausible.io/packaging.python.org",
     r"https://us.pycon.org/2024/registration/category/4",
 ]
+
+# A list of document names to exclude from linkcheck
+linkcheck_exclude_documents = [
+    r"monthly-meeting/.*",
+]
