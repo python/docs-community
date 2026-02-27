@@ -17,6 +17,8 @@ extensions = [
     "myst_parser",
 ]
 
+myst_enable_extensions = ["linkify"]
+
 # The master toctree document
 master_doc = "index"
 

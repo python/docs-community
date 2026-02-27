@@ -1,5 +1,6 @@
 Sphinx
 MyST-Parser
 furo
+linkify-it-py
 sphinx-copybutton
 sphinx-autobuild
