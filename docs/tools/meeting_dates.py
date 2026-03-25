@@ -41,11 +41,10 @@ class MeetingDatesDirective(SphinxDirective):
 
     def run(self):
         today = dt.date.today()
-        meetings = upcoming_meetings(today)
-        self.env.meeting_dates = meetings
+        self.env.meeting_dates = upcoming_meetings(today)
 
         bullets = nodes.bullet_list()
-        for date, hour in meetings:
+        for date, hour in self.env.meeting_dates:
             item = nodes.list_item()
             text = f"{date.strftime('%B %d, %Y')} - {hour:02d}:00 UTC"
             url = f"https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting"
@@ -63,14 +62,12 @@ def generate_ics(app, exception):
     if exception:
         return
 
-    meetings = app.env.meeting_dates
-
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Python Docs Community//Meeting Dates//EN",
     ]
-    for date, hour in meetings:
+    for date, hour in app.env.meeting_dates:
         start = dt.datetime(date.year, date.month, date.day, hour, 0, 0)
         end = start + dt.timedelta(hours=1)
         lines += [
@@ -86,8 +83,7 @@ def generate_ics(app, exception):
         "\r\n".join(lines) + "\r\n"
     )  # Required by spec for some reason: https://datatracker.ietf.org/doc/html/rfc5545#section-3.1
 
-    path = os.path.join(app.outdir, "docs-community-meetings.ics")
-    with open(path, "w") as f:
+    with open(os.path.join(app.outdir, "docs-community-meetings.ics"), "w") as f:
         f.write(ics)
 
 
