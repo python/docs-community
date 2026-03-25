@@ -40,11 +40,8 @@ class MeetingDatesDirective(SphinxDirective):
     has_content = False
 
     def run(self):
-        today = dt.date.today()
-        self.env.meeting_dates = upcoming_meetings(today)
-
         bullets = nodes.bullet_list()
-        for date, hour in self.env.meeting_dates:
+        for date, hour in upcoming_meetings(dt.date.today()):
             item = nodes.list_item()
             text = f"{date.strftime('%B %d, %Y')} - {hour:02d}:00 UTC"
             url = f"https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting"
@@ -67,7 +64,7 @@ def generate_ics(app, exception):
         "VERSION:2.0",
         "PRODID:-//Python Docs Community//Meeting Dates//EN",
     ]
-    for date, hour in app.env.meeting_dates:
+    for date, hour in upcoming_meetings(dt.date.today()):
         start = dt.datetime(date.year, date.month, date.day, hour, 0, 0)
         end = start + dt.timedelta(hours=1)
         lines += [
