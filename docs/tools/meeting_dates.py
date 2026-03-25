@@ -1,0 +1,97 @@
+"""Sphinx extension to generate a list of upcoming meeting dates."""
+
+import datetime as dt
+import os
+
+from docutils import nodes
+from sphinx.util.docutils import SphinxDirective
+
+
+def utc_hour(date):
+    if 4 <= date.month <= 10:
+        # Daylight saving time in Europe and the US
+        return 19 if date.month % 2 == 0 else 16
+    else:
+        # Winter time in Europe and the US
+        return 20 if date.month % 2 == 0 else 17
+
+
+def first_tuesday(year, month):
+    first = dt.date(year, month, 1)
+    days_ahead = (1 - first.weekday()) % 7
+    return first + dt.timedelta(days=days_ahead)
+
+
+def upcoming_meetings(today):
+    meetings = []
+    year, month = today.year, today.month
+    while len(meetings) < 6:  # Max of six meeting entries
+        meeting_date = first_tuesday(year, month)
+        if meeting_date >= today:
+            meetings.append((meeting_date, utc_hour(meeting_date)))
+        month += 1
+        if month > 12:
+            month = 1
+            year += 1
+    return meetings
+
+
+class MeetingDatesDirective(SphinxDirective):
+    has_content = False
+
+    def run(self):
+        today = dt.date.today()
+        meetings = upcoming_meetings(today)
+        self.env.meeting_dates = meetings
+
+        bullets = nodes.bullet_list()
+        for date, hour in meetings:
+            item = nodes.list_item()
+            text = f"{date.strftime('%B %d, %Y')} - {hour:02d}:00 UTC"
+            url = f"https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting"
+
+            paragraph = nodes.paragraph()
+            ref = nodes.reference("", text, refuri=url)
+            paragraph += ref
+            item += paragraph
+            bullets += item
+
+        return [bullets]
+
+
+def generate_ics(app, exception):
+    if exception:
+        return
+
+    meetings = app.env.meeting_dates
+
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Python Docs Community//Meeting Dates//EN",
+    ]
+    for date, hour in meetings:
+        start = dt.datetime(date.year, date.month, date.day, hour, 0, 0)
+        end = start + dt.timedelta(hours=1)
+        lines += [
+            "BEGIN:VEVENT",
+            f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
+            "SUMMARY:Docs Community Meeting",
+            f"URL:https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting",
+            "END:VEVENT",
+        ]
+    lines += ["END:VCALENDAR"]
+    ics = (
+        "\r\n".join(lines) + "\r\n"
+    )  # Required by spec for some reason: https://datatracker.ietf.org/doc/html/rfc5545#section-3.1
+
+    path = os.path.join(app.outdir, "docs-community-meetings.ics")
+    with open(path, "w") as f:
+        f.write(ics)
+
+
+def setup(app):
+    app.add_directive("meeting-dates", MeetingDatesDirective)
+    app.connect("build-finished", generate_ics)
+    return {"version": "1.0", "parallel_read_safe": True}

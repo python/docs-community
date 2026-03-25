@@ -11,10 +11,16 @@ author = "Documentation Team"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # A list of strings that are module names of Sphinx extensions
+import os
+import sys
+
+sys.path.append(os.path.abspath("tools/"))
+
 extensions = [
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
     "myst_parser",
+    "meeting_dates",
 ]
 
 myst_enable_extensions = ["linkify"]
