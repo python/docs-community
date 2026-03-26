@@ -74,8 +74,9 @@ linkcheck_ignore = [
     r"https://plausible.io/docs.python.org",
     r"https://plausible.io/packaging.python.org",
     r"https://us.pycon.org/2024/registration/category/4",
+    # Have redirects:
     r"https://arewemeetingyet.com/.*",
-    # Generated at build time
+    # Generated at build time:
     r"/docs-community-meetings.ics",
 ]
 

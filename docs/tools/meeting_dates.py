@@ -22,10 +22,10 @@ def first_tuesday(year, month):
     return first + dt.timedelta(days=days_ahead)
 
 
-def upcoming_meetings(today):
+def upcoming_meetings(today, count):
     meetings = []
     year, month = today.year, today.month
-    while len(meetings) < 6:  # Max of six meeting entries
+    while len(meetings) < count:
         meeting_date = first_tuesday(year, month)
         if meeting_date >= today:
             meetings.append((meeting_date, utc_hour(meeting_date)))
@@ -36,12 +36,27 @@ def upcoming_meetings(today):
     return meetings
 
 
+def past_meetings(today, count):
+    meetings = []
+    year, month = today.year, today.month
+    while len(meetings) < count:
+        meeting_date = first_tuesday(year, month)
+        if meeting_date < today:
+            meetings.append((meeting_date, utc_hour(meeting_date)))
+        month -= 1
+        if month < 1:
+            month = 12
+            year -= 1
+    meetings.reverse()
+    return meetings
+
+
 class MeetingDatesDirective(SphinxDirective):
     has_content = False
 
     def run(self):
         bullets = nodes.bullet_list()
-        for date, hour in upcoming_meetings(dt.date.today()):
+        for date, hour in upcoming_meetings(dt.date.today(), 6):
             item = nodes.list_item()
             text = f"{date.strftime('%B %d, %Y')} - {hour:02d}:00 UTC"
             url = f"https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting"
@@ -64,11 +79,15 @@ def generate_ics(app, exception):
         "VERSION:2.0",
         "PRODID:-//Python Docs Community//Meeting Dates//EN",
     ]
-    for date, hour in upcoming_meetings(dt.date.today()):
+    today = dt.date.today()
+    meetings = past_meetings(today, 12) + upcoming_meetings(today, 12)
+    for date, hour in meetings:
         start = dt.datetime(date.year, date.month, date.day, hour, 0, 0)
         end = start + dt.timedelta(hours=1)
         lines += [
             "BEGIN:VEVENT",
+            f"UID:{start.strftime('%Y%m%dT%H%M%SZ')}@python-docs-community",
+            f"DTSTAMP:{dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")}",
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             "SUMMARY:Docs Community Meeting",
