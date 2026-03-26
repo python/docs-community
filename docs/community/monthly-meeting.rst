@@ -5,9 +5,7 @@ Documentation Community Monthly Meetings
 
 Monthly meetings are held on the first Tuesday of the month
 on the `Discord server <https://discord.gg/sMWqvzXvde>`_ and last one hour.
-Check the agenda or Discourse announcement to verify the start time.
-
-Upcoming meetings:
+Upcoming meeting dates and times:
 
 .. meeting-dates::
 
@@ -34,6 +32,7 @@ Meetings follow the pattern:
 +-----------------+--------------+--------------+
 | November-March  | 20:00 UTC    | 17:00 UTC    |
 +-----------------+--------------+--------------+
+
 
 Minutes template
 ----------------
