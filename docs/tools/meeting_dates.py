@@ -77,7 +77,9 @@ def generate_ics(app, exception):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Python Docs Community//Meeting Dates//EN",
+        "PRODID:-//Python Docs Community//Meeting dates//EN",
+        "X-WR-CALDESC:Python docs community meeting dates from https://docs-community.readthedocs.io/",
+        "X-WR-CALNAME:Python docs community meeting dates",
     ]
     today = dt.date.today()
     meetings = past_meetings(today, 12) + upcoming_meetings(today, 12)
@@ -95,9 +97,7 @@ def generate_ics(app, exception):
             "END:VEVENT",
         ]
     lines += ["END:VCALENDAR"]
-    ics = (
-        "\r\n".join(lines) + "\r\n"
-    )  # Required by spec for some reason: https://datatracker.ietf.org/doc/html/rfc5545#section-3.1
+    ics = "\r\n".join(lines) + "\r\n"
 
     with open(os.path.join(app.outdir, "docs-community-meetings.ics"), "w") as f:
         f.write(ics)
