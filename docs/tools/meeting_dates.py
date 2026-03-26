@@ -87,7 +87,7 @@ def generate_ics(app, exception):
         lines += [
             "BEGIN:VEVENT",
             f"UID:{start.strftime('%Y%m%dT%H%M%SZ')}@python-docs-community",
-            f"DTSTAMP:{dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")}",
+            f"DTSTAMP:{dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             "SUMMARY:Docs Community Meeting",
