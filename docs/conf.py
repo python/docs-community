@@ -11,10 +11,16 @@ author = "Documentation Team"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # A list of strings that are module names of Sphinx extensions
+import os
+import sys
+
+sys.path.append(os.path.abspath("tools/"))
+
 extensions = [
     "sphinx_copybutton",
     "sphinx.ext.intersphinx",
     "myst_parser",
+    "meeting_dates",
 ]
 
 myst_enable_extensions = ["linkify"]
@@ -68,6 +74,10 @@ linkcheck_ignore = [
     r"https://plausible.io/docs.python.org",
     r"https://plausible.io/packaging.python.org",
     r"https://us.pycon.org/2024/registration/category/4",
+    # Have redirects:
+    r"https://arewemeetingyet.com/.*",
+    # Generated at build time:
+    r"/docs-community-meetings.ics",
 ]
 
 # A list of document names to exclude from linkcheck

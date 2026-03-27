@@ -5,15 +5,11 @@ Documentation Community Monthly Meetings
 
 Monthly meetings are held on the first Tuesday of the month
 on the `Discord server <https://discord.gg/sMWqvzXvde>`_ and last one hour.
-Check the agenda or Discourse announcement to verify the start time.
+Upcoming meeting dates and times:
 
-+-----------------+--------------+--------------+
-| Period          | Even months  | Odd months   |
-+=================+==============+==============+
-| April-October   | 19:00 UTC    | 16:00 UTC    |
-+-----------------+--------------+--------------+
-| November-March  | 20:00 UTC    | 17:00 UTC    |
-+-----------------+--------------+--------------+
+.. meeting-dates::
+
+`Download iCalendar file </docs-community-meetings.ics>`_
 
 The agenda and later the meeting minutes are written in the `HackMD <https://hackmd.io/@encukou/pydocswg1>`_.
 To edit notes, click the “pencil” or “split view” button on the `HackMD Document <https://hackmd.io/@encukou/pydocswg1>`_.
@@ -26,6 +22,16 @@ receive email notifications contact Mariatta in the Discord server.
 By participating in meetings, you are agreeing to abide by and uphold the
 `PSF Code of Conduct <https://policies.python.org/python.org/code-of-conduct/>`_.
 Please take a second to read through it!
+
+Meetings follow the pattern:
+
++-----------------+--------------+--------------+
+| Period          | Even months  | Odd months   |
++=================+==============+==============+
+| April-October   | 19:00 UTC    | 16:00 UTC    |
++-----------------+--------------+--------------+
+| November-March  | 20:00 UTC    | 17:00 UTC    |
++-----------------+--------------+--------------+
 
 
 Minutes template
