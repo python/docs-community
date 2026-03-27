@@ -77,9 +77,9 @@ def generate_ics(app, exception):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Python Docs Community//Meeting dates//EN",
-        "X-WR-CALDESC:Python docs community meeting dates from https://docs-community.readthedocs.io/",
-        "X-WR-CALNAME:Python docs community meeting dates",
+        "PRODID:-//Python Docs WG//Meeting dates//EN",
+        "X-WR-CALDESC:Python Docs WG meetings from https://docs-community.readthedocs.io/",
+        "X-WR-CALNAME:Python Docs WG meetings",
     ]
     today = dt.date.today()
     meetings = past_meetings(today, 12) + upcoming_meetings(today, 12)
@@ -92,8 +92,8 @@ def generate_ics(app, exception):
             f"DTSTAMP:{dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
-            "SUMMARY:Docs Community Meeting",
-            f"URL:https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Docs Community Meeting",
+            "SUMMARY:Python Docs WG",
+            f"URL:https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Python Docs WG meeting",
             "END:VEVENT",
         ]
     lines += ["END:VCALENDAR"]
