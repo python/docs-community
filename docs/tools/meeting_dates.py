@@ -93,7 +93,8 @@ def generate_ics(app, exception):
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             "SUMMARY:Python Docs WG",
-            f"URL:https://arewemeetingyet.com/UTC/{date.isoformat()}/{hour}:00/Python Docs WG meeting",
+            "DESCRIPTION:Agenda: https://hackmd.io/@encukou/pydocswg1",
+            " \\nDiscord event: https://discord.gg/yhvN2ECXSM?event=1389130476555337908",
             "END:VEVENT",
         ]
     lines += ["END:VCALENDAR"]
