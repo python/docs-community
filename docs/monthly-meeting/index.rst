@@ -23,3 +23,4 @@ Monthly reports in chronological order.
    Mar 2026 <2026-03.md>
    Apr 2026 <2026-04.md>
    May 2026 <2026-05.md>
+   Jun 2026 <2026-06.md>
