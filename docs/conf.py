@@ -64,7 +64,8 @@ html_title = "Python Docs Community Group"
 linkcheck_ignore = [
     # The crawler gets "Anchor not found"
     r"https://github.com.+?#.*",
-    r"https://hackmd\.io/[^?]+\?[^#]+#.+",
+    # The crawler gets "Forbidden for url"
+    r"https://hackmd\.io/.+",
     # Google Meet gives 404
     r"https://meet.google.com/.*",
     # RTD preview builds:

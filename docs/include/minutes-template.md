@@ -6,7 +6,7 @@
 - **This HackMD:** <https://hackmd.io/@encukou/pydocswg1>
 - [**Discourse thread**](https://discuss.python.org/t/XXXXXX)
 - [**Past Meeting reports**](https://docs-community.readthedocs.io/monthly-meeting/) (the latest one might be an [**unmerged PR**](https://github.com/python/docs-community/pulls))
-- **Calendar event:** (send your e-mail to Mariatta for an invitation)
+- **Calendar event:** We have an [iCalendar](https://docs-community.readthedocs.io/docs-community-meetings.ics)!
 - **How to participate:**
   -  We are using Discord: <https://discord.gg/wESBgA6Y?event=1389130476555337908>
   -  See the [documentation](https://docs-community.readthedocs.io/community/monthly-meeting.html)
@@ -57,7 +57,5 @@ Example topics for discussion:
 ## Next meeting
 
 The docs team generally meets on the first Tuesday of even months around
-19:00-ish UTC and odd months around 16:00-ish UTC.
-
-We have a recurring Google Calendar event for the meeting.
-Let Mariatta know your email address and she can invite you.
+19:00 UTC and odd months around 16:00 UTC, see the
+[timetable](https://docs-community.readthedocs.io/community/monthly-meeting.html).
