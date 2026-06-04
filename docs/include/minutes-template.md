@@ -57,6 +57,5 @@ Example topics for discussion:
 ## Next meeting
 
 The docs team generally meets on the first Tuesday of even months around
-19:00-ish UTC and odd months around 16:00-ish UTC, see the
-[documentation](https://docs-community.readthedocs.io/community/monthly-meeting.html)
-for a timetable.
+19:00 UTC and odd months around 16:00 UTC, see the
+[timetable](https://docs-community.readthedocs.io/community/monthly-meeting.html).
