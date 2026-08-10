@@ -25,3 +25,4 @@ Monthly reports in chronological order.
    May 2026 <2026-05.md>
    Jun 2026 <2026-06.md>
    Jul 2026 <2026-07.md>
+   Aug 2026 <2026-08.md>
