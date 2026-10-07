@@ -1,3 +1,7 @@
+---
+event_location: VC:1303462495977213992
+---
+
 # Documentation Community Team Meeting (MONTH DAY, YEAR)
 
 :::info

@@ -93,6 +93,7 @@ def generate_ics(app, exception):
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             "SUMMARY:Python Docs WG monthly meeting",
+            "LOCATION:https://discord.com/channels/935215565872693329/1303462495977213992",
             "DESCRIPTION:Agenda: https://hackmd.io/@encukou/pydocswg1",
             " \\nDiscord channel: https://discord.gg/yhvN2ECXSM",
             "END:VEVENT",
