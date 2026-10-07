@@ -94,7 +94,7 @@ def generate_ics(app, exception):
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             "SUMMARY:Python Docs WG monthly meeting",
             "LOCATION:https://discord.com/channels/935215565872693329/1303462495977213992",
-            "DESCRIPTION:---\\nevent_location: VC:1303462495977213992\\n---",
+            'DESCRIPTION:+++\\nevent_location="VC:1303462495977213992"\\n+++',
             " \\nAgenda: https://hackmd.io/@encukou/pydocswg1",
             " \\nDiscord channel: https://discord.gg/yhvN2ECXSM",
             "END:VEVENT",
